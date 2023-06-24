@@ -13,25 +13,29 @@
         <h3 class="ml-[8rem] text-xs font-bold text-white">So why not rock the St Pete flag?</h3>
       </div>
       <div class="flex justify-center pt-3 pl-3">
-        <Flag />
+        <Flag/>
       </div>
     </header>
 
     <div class="grid sm:grid-cols-2 gap-4">
-      <Card title="Pete Plate"
-            subtitle="Yes Logo"
-            logo={logo}
-            price="$24.99"
-            description="This one includes the petesplates.com logo. We gotta get the word out somehow! "
-            cartUrl="https://buy.stripe.com/5kA7vSgn67La1eE7ss"
-      />
-      <Card title="Pete Plate"
-            subtitle="No Logo"
-            logo={noLogo}
-            price="$34.99"
-            description="This one does not include the petesplates.com logo. Ya gotta pay extra for that!"
-            cartUrl="https://buy.stripe.com/5kA7vSgn67La1eE7ss"
-      />
+      <div class="p-4">
+        <Card title="Pete Plate"
+              subtitle="Yes Logo"
+              logo={logo}
+              price="$24.99"
+              description="This one includes the petesplates.com logo. We gotta get the word out somehow! "
+              cartUrl="https://buy.stripe.com/9AQcNzaG8f1BakwdQR"
+        />
+      </div>
+      <div class="p-4">
+        <Card title="Pete Plate"
+              subtitle="No Logo"
+              logo={noLogo}
+              price="$34.99"
+              description="This one does not include the petesplates.com logo. You gotta pay extra for that!"
+              cartUrl="https://buy.stripe.com/6oEbJv29C3iTboA000"
+        />
+      </div>
     </div>
   </div>
 

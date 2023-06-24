@@ -7,7 +7,7 @@
   export let cartUrl: string;
 </script>
 
-<article class="w-full flex flex-col bg-white shadow-lg rounded-lg p-8">
+<article class="w-full flex flex-col bg-white shadow-lg rounded-lg p-4">
   <header class="flex flex-col md:flex-row justify-between">
     <h2 class="text-2xl font-bold mb-4">{title} <span class="text-sm font-semibold">({subtitle})</span></h2>
     <p class="text-gray-700 mb-4  md:text-3xl font-bold">{price}</p>
