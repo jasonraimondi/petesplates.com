@@ -1,6 +1,6 @@
 {
-  "watch": ["src/**/*"],
-  "ext": "ts",
-  "ignore": ["src/**/*.spec.ts"],
-  "exec": "pnpm build && pnpm preview"
+	"watch": ["src/**/*"],
+	"ext": "ts",
+	"ignore": ["src/**/*.spec.ts"],
+	"exec": "pnpm build && pnpm preview"
 }
