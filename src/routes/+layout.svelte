@@ -5,23 +5,13 @@
 	const year = new Date().getFullYear();
 </script>
 
-<div id="container" class="container mx-auto">
-	<main>
+<div class="container mx-auto px-4 flex flex-col h-full">
+	<main class="flex-1">
 		<slot />
 	</main>
-	<footer class="text-center my-4">
-		<div class="flex justify-center pb-4">
-			<Flag />
-		</div>
+
+	<footer class="text-center my-4 h-50">
 		<p class="text-sm pb-2 font-medium">Built in in St. Pete, Fl.</p>
 		<p class="text-xs">Copyright &copy; {year}</p>
 	</footer>
 </div>
-
-<style>
-	#container {
-		display: grid;
-		grid-template-rows: 1fr auto;
-		height: 100%;
-	}
-</style>
