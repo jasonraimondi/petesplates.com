@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: petesplates.com
-    env: static
-    buildCommand: pnpm add -g pnpm; pnpm install && pnpm build
-    staticPublishPath: build
-    autoDeploy: true
