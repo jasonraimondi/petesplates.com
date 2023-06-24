@@ -20,7 +20,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 m-4">
       <Card
           title="Pete Plate"
-          subtitle="Yes Logo"
+          subtitle="With Logo"
           logo={logo}
           price="$24.99"
           description="This one includes the petesplates.com logo. We gotta get the word out somehow! "
@@ -28,7 +28,7 @@
       />
       <Card
           title="Pete Plate"
-          subtitle="No Logo"
+          subtitle="Without Logo"
           logo={noLogo}
           price="$34.99"
           description="This one does not include the petesplates.com logo. You gotta pay extra for that!"
