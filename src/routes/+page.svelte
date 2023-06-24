@@ -42,7 +42,7 @@
 
 	<footer class="flex flex-col items-center justify-center">
 		<p class="text-white mb-1">
-			Made for you by <a class="font-semibold hover:underline" href="https://jasonraimondi.com"
+			Made for you by <a class="font-semibold hover:underline" target="_blank" href="https://jasonraimondi.com"
 				>me</a
 			>.
 		</p>
