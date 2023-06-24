@@ -10,14 +10,14 @@
     <header class="flex justify-center">
       <div class="text-center ml-4 mb-8">
         <h1 class="text-5xl font-bold text-white">St. Pete Rocks</h1>
-        <h3 class="ml-[8rem] text-xs font-bold text-white">So why not rock the St Pete flag?</h3>
+        <h3 class="ml-[8rem] text-xs font-bold text-white">So why not rock some St Pete?</h3>
       </div>
       <div class="flex justify-center pt-3 pl-3">
         <Flag/>
       </div>
     </header>
 
-    <div class="grid sm:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="p-4">
         <Card title="Pete Plate"
               subtitle="Yes Logo"
