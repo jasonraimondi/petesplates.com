@@ -8,7 +8,7 @@ export default {
 				DEFAULT: '0.5rem'
 			},
 			padding: {
-				DEFAULT: '0.5rem'
+				DEFAULT: '1rem'
 			}
 		}
 	},

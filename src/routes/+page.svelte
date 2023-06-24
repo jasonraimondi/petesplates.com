@@ -2,13 +2,22 @@
   import logo from '../assets/pete-plate-logo-center.jpg';
   import noLogo from '../assets/pete-plate-no-logo.jpg';
   import Card from '../components/Card.svelte';
+  import Flag from '../components/flag/Flag.svelte';
 </script>
 
-<div id="animated" class="h-full bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 pb-4 flex flex-col">
+<div id="animated" class="min-h-full bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 pb-4 flex flex-col">
   <div class="container mx-auto py-10 flex-1">
-    <h1 class="text-5xl font-bold mb-8 text-white">St. Pete Rocks <span class="text-xs">So why not rock the St Pete flag?</span></h1>
+    <header class="flex justify-center">
+      <div class="text-center ml-4 mb-8">
+        <h1 class="text-5xl font-bold text-white">St. Pete Rocks</h1>
+        <h3 class="ml-[8rem] text-xs font-bold text-white">So why not rock the St Pete flag?</h3>
+      </div>
+      <div class="flex justify-center pt-3 pl-3">
+        <Flag />
+      </div>
+    </header>
 
-    <div class="flex justify-center">
+    <div class="grid sm:grid-cols-2 gap-4">
       <Card title="Pete Plate"
             subtitle="Yes Logo"
             logo={logo}
@@ -27,7 +36,8 @@
   </div>
 
   <footer class="flex flex-col items-center justify-center">
-    <p class="text-white mb-1">Made for you by <a class="font-semibold hover:underline" href="https://jasonraimondi.com">me</a>.</p>
+    <p class="text-white mb-1">Made for you by <a class="font-semibold hover:underline"
+                                                  href="https://jasonraimondi.com">me</a>.</p>
     <p class="text-xs text-white">Copyright &copy; 2023</p>
   </footer>
 </div>
