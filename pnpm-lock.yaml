@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@fontsource-variable/open-sans':
+    specifier: ^5.0.4
+    version: 5.0.4
+  '@fontsource/lato':
+    specifier: ^5.0.3
+    version: 5.0.3
   '@sveltejs/adapter-static':
     specifier: ^2.0.2
     version: 2.0.2(@sveltejs/kit@1.20.4)
@@ -254,6 +260,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource-variable/open-sans@5.0.4:
+    resolution: {integrity: sha512-J0kjck5IzXDf5z3T0MljdWs3fNhOzGzP1AYwmkXtQ9QL8iKvrTDlLvf3erPIyUSqs6YDtQyWrz3yloQt7gLpYg==}
+    dev: true
+
+  /@fontsource/lato@5.0.3:
+    resolution: {integrity: sha512-5rfhzbJyFVKvfDhSeyBhfixX2VogW7LpGCB94kRHuxVBfzdXa3a8ovOR/fkXb+24NGiQd0cSnxQHTcBGjqjJOw==}
+    dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}

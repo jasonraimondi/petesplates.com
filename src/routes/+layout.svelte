@@ -1,17 +1,15 @@
 <script>
-	import '../app.css';
-	import Flag from '../components/flag/Flag.svelte';
-
-	const year = new Date().getFullYear();
+  import '@fontsource/lato/300.css';
+  import '@fontsource/lato/400.css';
+  import '@fontsource/lato/700.css';
+  import '@fontsource/lato/900.css';
+  import '../app.css';
 </script>
 
-<div class="container mx-auto px-4 flex flex-col h-full">
-	<main class="flex-1">
-		<slot />
-	</main>
+<slot/>
 
-	<footer class="text-center my-4 h-50">
-		<p class="text-sm pb-2 font-medium">Built in in St. Pete, Fl.</p>
-		<p class="text-xs">Copyright &copy; {year}</p>
-	</footer>
-</div>
+<style>
+  :global(body) {
+    font-family: "Lato", sans-serif;
+  }
+</style>
