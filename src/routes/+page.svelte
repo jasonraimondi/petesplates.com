@@ -9,6 +9,10 @@
 	id="animated"
 	class="min-h-full bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600 flex flex-col pb-4"
 >
+	<div class="flex justify-center items-center h-10 bg-red-500 text-white">
+		$5 off applied at checkout!
+	</div>
+
 	<div class="md:container md:mx-auto py-10 flex-1">
 		<header class="flex justify-start mx-4">
 			<div class="flex justify-center pt-2 pr-2">
@@ -25,17 +29,19 @@
 				title="Pete Plate"
 				subtitle="With Logo"
 				{logo}
-				price="$24.99"
+				price="$19.99"
+				originalPrice="$24.99"
 				description="This one includes the petesplates.com logo. We gotta get the word out somehow! "
-				cartUrl="https://buy.stripe.com/9AQcNzaG8f1BakwdQR"
+				cartUrl="https://buy.stripe.com/9AQcNzaG8f1BakwdQR?prefilled_promo_code=save5"
 			/>
 			<Card
 				title="Pete Plate"
 				subtitle="Without Logo"
 				logo={noLogo}
-				price="$34.99"
+				price="$29.99"
+				originalPrice="$34.99"
 				description="This one does not include the petesplates.com logo. You gotta pay extra for that!"
-				cartUrl="https://buy.stripe.com/6oEbJv29C3iTboA000"
+				cartUrl="https://buy.stripe.com/6oEbJv29C3iTboA000?prefilled_promo_code=save5"
 			/>
 		</div>
 	</div>

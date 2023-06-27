@@ -4,6 +4,7 @@
 	export let subtitle: string;
 	export let description: string;
 	export let price: string;
+	export let originalPrice: string;
 	export let cartUrl: string;
 </script>
 
@@ -13,7 +14,10 @@
 			<h2 class="text-2xl font-bold mb-4">
 				{title} <span class="text-sm font-semibold">({subtitle})</span>
 			</h2>
-			<p class="text-gray-700 mb-4 md:text-3xl font-bold">{price}</p>
+			<p class="text-gray-700 mb-4 md:text-3xl font-bold">
+				<span class="text-sm line-through text-red-600 font-medium">{originalPrice}</span>
+				{price}
+			</p>
 		</header>
 		<section class="pt-4 pb-6 flex-1">
 			<img src={logo} alt="" class="rounded-3xl" />
